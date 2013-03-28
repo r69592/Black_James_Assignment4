@@ -31,3 +31,5 @@ var phoneNumber = "706-313-3502";
   
  }
 }
+  
+console.log(checknumeric(7063133502));
