@@ -43,8 +43,7 @@ var myLibrary = function() {
 var strVarifyIfURL = function (http) {
 		var reg = /^(https?):\/\/.*$/;
 		return reg.test(str); 
-		
-strVarifyIfURL(http://123.123.13.2);
+}
 
 
  // Check Title Case.
