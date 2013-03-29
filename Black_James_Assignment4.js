@@ -5,13 +5,6 @@
 
 var myLibrary = function() {
   
-  // checkNumeric function.
-  
-var phoneNumber = "706-313-3502";
-
-  var checkNumeric = function(number) {
-    numericCheck = "";
-    var numberVal= /^(\d{3}){-}(\d{3})[-](\d{4})$/;
     if (number.match(phone)) {
         return (phonecheck = "Phone number " + number + "is correct");
     } else {
