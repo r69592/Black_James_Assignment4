@@ -52,7 +52,15 @@ var strVarifyIfURL = function (http) {
         return initial.toUpperCase();
         });
 
- //
+ // Check Total Value
+ var totalValue = function (array) {
+		var total = 0;
+		for (i=0,len=array.length; i < len; i++) {
+			var num = yb.numStringToNumber(array[i]);
+			total += num;
+		};
+		return total;
+	};
   
   
 console.log(myLibrary);
